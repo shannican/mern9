@@ -32,7 +32,7 @@ html, body {
     padding: 15px;
     white-space: nowrap;
     overflow-x: auto;
-    background-color: #dadada;
+    background-color: #000000;
     overflow-y: hidden;
 }
 #storiyan::-webkit-scrollbar{
