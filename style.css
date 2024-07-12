@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 html, body {
@@ -19,7 +20,7 @@ html, body {
 }
 
 #card{
-    height: 450px;
+    height: 500px;
     width: 330px;
     border-radius: 10px;
     background-color: white;
@@ -32,7 +33,6 @@ html, body {
     padding: 15px;
     white-space: nowrap;
     overflow-x: auto;
-    background-color: #000000;
     overflow-y: hidden;
 }
 #storiyan::-webkit-scrollbar{
@@ -56,4 +56,56 @@ html, body {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+#postDiv{
+    height: 80%;
+    width: 100%;
+    overflow-y: auto;
+}
+#postDiv::-webkit-scrollbar{
+    display: none;
+}
+.post{
+    margin-bottom: 10px;
+}
+.post .nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    gap: 15px;
+}
+.nav img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 2px solid red;
+    object-fit: cover;
+}
+.nav h5{
+    font-size: 12px;
+}
+.post .imageDiv{
+    height: 270px;
+    width: 100%;
+}
+.imageDiv img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.optionDiv{
+    display: flex;
+    align-items: center;
+    padding: 6px 20px;
+    gap: 8px;
+}
+.optionDiv h5{
+    font-size: 20px;
+    font-weight: 100;
+}
+h6{
+    padding: 3px 20px;
+    font-size: 15px;
 }

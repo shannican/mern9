@@ -24,8 +24,42 @@ var arr = [
                 dp:"https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 story:"https://images.unsplash.com/photo-1717701315033-492b4c8b0d23?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyM3x8fGVufDB8fHx8fA%3D%3D"
         },
-        
 ]
+
+
+var post = [{
+        username:"",
+        image:"",
+        likesCount:"",
+        isLiked:false, 
+},
+{
+        username:"",
+        image:"",
+        likesCount:"",
+        isLiked:false, 
+},
+{
+        username:"",
+        image:"",
+        likesCount:"",
+        isLiked:false, 
+},
+{
+        username:"",
+        image:"",
+        likesCount:"",
+        isLiked:false, 
+},
+{
+        username:"",
+        image:"",
+        likesCount:"",
+        isLiked:false, 
+},
+
+]
+
 
 var clutter = ""
 
