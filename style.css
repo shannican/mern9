@@ -1,4 +1,4 @@
-* {
+ * {
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -25,6 +25,7 @@ html, body {
     border-radius: 10px;
     background-color: white;
     overflow: hidden;
+    position: relative;
 }
 
 #storiyan{
@@ -49,7 +50,9 @@ html, body {
     border-radius: 50%;
     background: linear-gradient(to right bottom,rgb(0, 123, 255),rgb(242, 52, 31),rgb(223, 10, 177),yellow);
     padding: 3px;
+    cursor: pointer;
 }
+
 .story img{
     border-radius: 50%;
     
@@ -108,4 +111,48 @@ html, body {
 h6{
     padding: 3px 20px;
     font-size: 15px;
+}
+
+#full{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: none;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 20px;
+}
+
+#full #progress{
+    background-color: rgba(193, 193, 193, 0.621);
+    height: 7px;
+    width: 100%;
+    border-radius: 50px;
+}
+
+#progress #growth{
+    height: 100%;
+    width: 0%;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.userDetails{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 12px;
+}
+.userDetails img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.userDetails h5{
+    color: #fff;
+    font-weight: 500;
+
+
 }
